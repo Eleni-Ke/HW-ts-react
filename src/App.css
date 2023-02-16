@@ -36,3 +36,41 @@
     transform: rotate(360deg);
   }
 }
+
+.main-container {
+  display: flex;
+}
+
+.all-articles-container {
+  width: 60%;
+}
+
+.all-articles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.article-card {
+  border: 1px solid goldenrod;
+  width: 10rem;
+  margin-inline: 1rem;
+  margin-top: 1rem;
+  padding: 1rem 1.5rem;
+  height: 17rem;
+}
+
+.article-card-image {
+  width: 5rem;
+}
+
+.article-details-container {
+  width: 40%;
+  margin-top: 10rem;
+}
+
+.article-details-card {
+  background: goldenrod;
+  margin-inline: 3rem;
+  padding: 3rem;
+}
